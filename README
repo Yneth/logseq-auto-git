@@ -1,0 +1,14 @@
+logseq auto git
+==============
+
+Usage:
+./autogit.clj time-in-sec
+
+Example:
+./autogit.clj 120 # every 2 minutes
+
+==============
+
+Requirements:
+  - macOS (osascript)
+  - babashka
