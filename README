@@ -2,7 +2,10 @@ logseq auto git
 ==============
 
 Usage:
-./autogit.clj time-in-sec
+  Put ./autogit.clj into your notes directory,
+  also make sure you add ssh key to ssh-agent.
+
+  Run ./autogit.clj time-in-sec
 
 Example:
 ./autogit.clj 120 # every 2 minutes
