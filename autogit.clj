@@ -27,8 +27,7 @@
           (run-proc ["git" "push" "--no-verify" "origin" "master"])
 
           pull-res
-          (when (ok? push-res)
-            (run-proc ["git" "pull" "--rebase" "origin" "master"]))
+          (run-proc ["git" "push" "--no-verify" "origin" "master"])
 
           notif-res
           (when-not (ok? pull-res)
